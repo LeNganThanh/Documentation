@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-size: 1.2rem;
+  line-height: 2rem;
+}
+/* setting the side navigation bar */
+.sidenavi p{
+    font-size: 2rem;
+    color: rgb(173, 187, 48);
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+.sidenavi {
+  height: 100%;
+  width: 18vmax;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: gray;
+  overflow-x: hidden;
+  padding-top: 1rem;
+  line-height: 1.9rem;
+}
+.sidenavi a {
+  padding: 6px 8px 6px 16px;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: antiquewhite;
+  display: block;
+  border-top: 1px solid rgba(250, 235, 215, 0.295);
+}
+.sidenavi a:hover {
+  color: aqua;
+}
+/* coding the main section */
+header {
+    text-align: center;
+    padding: 1.5rem;
+    background-color: antiquewhite;
+    margin-left: 18vmax;
+}
+
+.main-section {
+  margin-left: 18vmax;
+  padding: 0 1rem;
+  background-color: antiquewhite;
+  ;
+}
+.main-section h2{
+    padding: 1.5rem 0;
+}
+.main-section ul{
+    margin-left: 1rem;
+}
+.main-section .subselect{
+    background-color: rgba(128, 128, 128, 0.466);
+    padding: 1rem;
+}
+#ref{
+font-style: italic;
+color: rgb(173, 187, 48);
+text-align: right;
+}
+/* setting the img to display block */
+img{
+  display: block;
+  width: 500px;
+  margin: 1rem 0;
+}
